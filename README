@@ -1,0 +1,20 @@
+About
+-----
+Classic snake game written in Haskell. The player controls a long creature - a snake, which roams around on a bordered plane. Pick up food to grow and try 
+to avoid hitting the other player or a wall.
+
+
+Dependencies
+------------
+sprig - http://code.bluedinosaurs.com/lib/sprig/
+        http://hackage.haskell.org/package/Sprig
+
+sdl - http://www.libsdl.org/
+      http://hackage.haskell.org/package/SDL-0.6.2
+
+
+Install
+-------
+cabal install sdl-image sdl-ttf sdl-gfx sprig
+cd /path/to/HSnake
+./build.sh
